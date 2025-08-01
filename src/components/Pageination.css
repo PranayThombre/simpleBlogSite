@@ -1,0 +1,38 @@
+/* Pagination.css */
+
+.pagination-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+  color: #ffffff;
+}
+
+.pagination-controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pagination-btn {
+  background-color: #1f1f2e;
+  color: #00ffe7;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #00ffe7;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.pagination-btn:hover {
+  background-color: #00ffe7;
+  color: #1f1f2e;
+  transform: scale(1.05);
+}
+
+.pagination-info {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-weight: 600;
+}

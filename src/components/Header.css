@@ -1,0 +1,25 @@
+/* Header.css */
+
+.header {
+  background-color: #1e1e2f;
+  color: #f0f0f0;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #00ffe7;
+  text-shadow: 0 0 5px #00ffe7aa;
+}
